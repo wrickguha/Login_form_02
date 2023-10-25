@@ -1,6 +1,6 @@
 body{
 	margin:0;
-    background-image: url('./loc1-min-1024x640.jpg');
+    background-image: url('./background.jpg');
     background-repeat: no-repeat;
     background-size: cover;
 	font:600 16px/18px 'Open Sans',sans-serif;
@@ -17,6 +17,9 @@ a{color:inherit;text-decoration:none}
 	min-height:670px;
 	position:relative;
 	box-shadow:0 12px 15px 0 rgba(0,0,0,.24),0 17px 50px 0 rgba(0,0,0,.19);
+	display: flex;
+	justify-content: flex-end;
+	float: right;
 }
 .login-html{
 	width:100%;
@@ -82,6 +85,7 @@ a{color:inherit;text-decoration:none}
 	padding:15px 20px;
 	border-radius:25px;
 	background:rgba(255,255,255,.1);
+	cursor: pointer;
 }
 .login-form .group input[data-type="password"]{
 	text-security:circle;
